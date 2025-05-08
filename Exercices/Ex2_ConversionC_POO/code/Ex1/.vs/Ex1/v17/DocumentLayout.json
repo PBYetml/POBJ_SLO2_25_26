@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ecole_ETML_ES-locoal-priv\u00E9\\GithubSLO2\\POBJ_SLO2_24_25\\Exercices\\Ex2_ConversionC_POO\\code\\Ex1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14AF2234-9040-4DC4-9FBA-B2277F94A870}|Ex1\\Ex1.vcxproj|C:\\Ecole_ETML_ES-locoal-priv\u00E9\\GithubSLO2\\POBJ_SLO2_24_25\\Exercices\\Ex2_ConversionC_POO\\Ex1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ex1.cpp",
+              "DocumentMoniker": "C:\\Ecole_ETML_ES-locoal-priv\u00E9\\GithubSLO2\\POBJ_SLO2_24_25\\Exercices\\Ex2_ConversionC_POO\\Ex1.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Ex1.cpp",
+              "ToolTip": "C:\\Ecole_ETML_ES-locoal-priv\u00E9\\GithubSLO2\\POBJ_SLO2_24_25\\Exercices\\Ex2_ConversionC_POO\\Ex1.cpp",
+              "RelativeToolTip": "..\\..\\Ex1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T09:16:47.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
