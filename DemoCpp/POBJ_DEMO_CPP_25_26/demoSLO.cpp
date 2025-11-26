@@ -20,6 +20,7 @@
 
 //-- personnal libraries -> class --//
 #include "mesFcts.h"
+#include "personnage.h"
 
 //-- main programme -> entry point of the programm --//
 void main()
@@ -62,9 +63,31 @@ void main()
 	//description : -> class -> objet -> () <- constructor calling 
 	std::string chaine("hello"), chaine2;
 
+	//-- déclaration d'objet type 
+	Personnage slo2Student(50);		//object statique 
+	Personnage *slo2Etudiant;	//object dynamique 
+
+
+	slo2Student.taille = 160; 
+
+
 	//-- object instantiation --// 
 	chaine = "HELLO"; 
 	chaine2 = "SLO"; 
+
+	//-- instancier un objet dynamique --// 
+	slo2Etudiant = new Personnage(); 
+
+	//-- afficher vie sur objet statique 
+	slo2Student.AfficherVie(); 
+
+	//-- affficher vie sur objet dynamique
+	slo2Etudiant->AfficherVie(); 
+
+	//-- destruction de l'objet dynamique
+	delete slo2Etudiant; 
+
+	slo2Etudiant->AfficherVie(); 
 
 	//-- use of an object -> methode utilisation 
 	//-> lenth of character string 
