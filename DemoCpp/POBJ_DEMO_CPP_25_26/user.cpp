@@ -8,7 +8,8 @@
 //
 // Description          : 
 //
-// Remarques :          : 
+// Remarques :          : /!\ membres static doivent être initialisé comme une 
+//						  "variable globale" dans un fichier sinon cela ne marche pas 
 //----------------------------------------------------------------------------------//
 
 //-- lib standardisé 
@@ -16,6 +17,10 @@
 
 //-- lib perso 
 #include "user.h"
+
+
+short user::LIM_MAX = 0; 
+short user::LIM_MIN = 0; 
 
 
 //----------------------------------------------------------------------------------//
@@ -145,8 +150,39 @@ void SetNumberValue(float valUser);
 bool ValiderValUser(float valATester); */ 
 
 
-
-
-void user::FctDemoStatique(void)
+//----------------------------------------------------------------------------------//
+// Nom de la méthode	: FctDemoStatique
+// Entrée				: 
+// Sortie				:  
+// in-out				: 
+// Description			:  
+// Remarque				: 
+//----------------------------------------------------------------------------------//
+void user::FctDemoStatique(char min, char max)
 {
+	//-- instanciation de valeur à des cst --// 
+	user::LIM_MIN;
+	user::LIM_MAX; 
+	
+	//-- 
+	for (char increment = user::LIM_MIN; increment < user::LIM_MAX; increment)
+	{
+		increment++; 
+	}
+	
 }
+
+
+/*void FctDemoStatique(char min, char max)
+{
+	//-- instanciation de valeur à des cst --// 
+	/*user::LIM_MIN = min;
+	user::LIM_MAX = max; 
+
+	//-- 
+	for (char increment = user::LIM_MIN; increment < user::LIM_MAX; increment)
+	{
+		increment++;
+	}
+}*/
+

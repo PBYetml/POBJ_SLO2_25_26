@@ -21,8 +21,8 @@
 //-- personnal libraries -> class --//
 #include "mesFcts.h"
 #include "personnage.h"
-//#include "Armes.h"
 #include "couteau.h"
+#include "user.h"
 
 //-- main programme -> entry point of the programm --//
 void main()
@@ -31,12 +31,12 @@ void main()
 	//-- static memory -> "ROM" 
 	//-- primitive type  --// 
 	//-- integer --//
-	bool valB;			//-> 1 octet			//-> true ou false 
-	char valC;			//-> 1 octet
-	short valS;			//-> 2 octet
-	int valI, valX;		//-> 4 octet 
-	long valL;			//-> 4 octet 
-	long long valLL;	//-> 8 octet
+	bool valB;					//-> 1 octet			//-> true ou false 
+	char valC;					//-> 1 octet
+	short valS;					//-> 2 octet
+	int valI, valX, taille;		//-> 4 octet 
+	long valL;					//-> 4 octet 
+	long long valLL;			//-> 8 octet
 	
 	//-- example with normalized type --// 
 	int8_t valI2;
@@ -46,6 +46,10 @@ void main()
 	double valD;		//-> 8 octet 
 
 	bool A = true;		//-> not linked to a numeric value
+
+	//-- taille en octet du type booléen --// 
+	taille = sizeof(bool); 
+
 
 	//-- declaration of table (static memory) --// 
 	int tbDemo[10]; 
@@ -67,14 +71,23 @@ void main()
 
 	//-- déclaration d'objet type 
 	Personnage slo2Student(50);		//object statique 
-	Personnage *slo2Etudiant;	//object dynamique 
+	Personnage *slo2Etudiant;		//object dynamique 
 
 	couteau couteauSuisse("couteau suisse", 1);  
 
-
-
 	slo2Student.taille = 160; 
 
+
+	//-- démo statique --// 
+	user demoStatique(0,0);
+	
+	demoStatique.FctDemoStatique(0, 0); 
+
+	user::FctDemoStatique(0, 0); 
+
+	//user::AfficherMsgUser(demoStatique);
+	demoStatique.AfficherMsgUser(user::msg1); 
+	
 	
 
 

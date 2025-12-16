@@ -73,7 +73,7 @@ void Personnage::AfficherVie()
 Personnage::~Personnage()
 {
 	vie = 0; 
-	if (monArme != NULL)
+	if (suppressionArme == false)
 		delete monArme; 
 }
 
@@ -118,11 +118,19 @@ void Personnage::SubirAttaque(Personnage attaquant)
 // input parameters		:
 // output parameters	:
 // reference parameters : 
-// descrription			:
+// description			: 
+// remark				: attention, le pointeur ne sera pas supprimer, mais le lien 
+//						  sera libéré !!! 
 ---------------------------------------------------------------------------------- */
 bool Personnage::SupprimerArme()
 {
+	//-- supprimer l'instance lié à l'arme 
 	delete monArme;
+
+	//-- info au personnage -> true = plus d'arme --// 
+	suppressionArme = true;
+
+	//--  --// 
 	return true; 
 }
 

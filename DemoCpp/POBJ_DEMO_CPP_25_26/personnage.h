@@ -25,12 +25,13 @@ class Personnage
 	protected:
 
 	private:
+		bool suppressionArme; 
 		int vie;
 		//-- attribut -> association -> pointeur (dynamique) 
 		arme* monArme;
 
 		//-- attribut -> composition -> objet (statique) 
-		arme monArmepardefaut;
+		arme monArmeParDefaut;
 
 		//-- visibilité méthode
 	public:
@@ -44,7 +45,7 @@ class Personnage
 		//void Personnage(); 
 
 		//-- desctructeur
-		~Personnage(); 
+		~Personnage();
 
 		//-- méthode --// 
 		void AfficherVie(); 

@@ -23,6 +23,8 @@ class user
 	public:
 		//static int demoStatic;*/  
 		enum e_MessageUser : int { msg1, msg2, msg3 };
+		static short LIM_MAX;
+		static short LIM_MIN;
 
 	//-- protected
 	protected : 
@@ -32,6 +34,7 @@ class user
 	private : 
 		const short LIMIT_MAX_USER; 
 		const short LIMIT_MIN_USER; 
+		
 
 
 	//-- constructeur --// 
@@ -52,7 +55,9 @@ class user
 		void SetNumberValue(float valUser); 
 		bool ValiderValUser(float valATester); 
 		
-		static void FctDemoStatique(void); 
+		static void FctDemoStatique(char max, char min); 
+
+		//void FctDemoStatique(short max, short min); 
 
 	//-- protected
 
