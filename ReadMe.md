@@ -1,4 +1,4 @@
-# POBJ - Cours de programmation objet année 2025 - 2026 - V3_6
+# POBJ - Cours de programmation objet année 2025 - 2026 - V3_7
 ## Infos Pratiques sur Git
 
 ### Créer un compte sur un serveur GIT 
@@ -77,12 +77,12 @@ prenez celui-qui vous convient
 | [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_UML) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
 | [PRJ UML]() | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
 | C++ | | | | | | | | | |
-| [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_CPP_ConversionC_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
+| [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex1_CPP_ConversionC_Cpp) | OK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
 | [Ex2](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex2_CPP_Fonctions) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
-| [Ex3](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex4_CPP_ClassFigGeo_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
-| [Ex4](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex5_RevisionClass1_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
-| [Ex5](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex6_RevisionClass2_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
-| [Ex6](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex7_ClassAffichageLCD_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
+| [Ex3](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex3_CPP_ClassFigGeo) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |  NOK |
+| [Ex4](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex4_CPP_ClassFigGeo2) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
+| [Ex5](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex5_CPP_RevisionChap1_6_Cpp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
+| [Ex6](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex6_CPP_ClassAffichageLCD) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
 | C# | | | | | | | | | |
 | [Ex1](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex2_ConversionC_CSharp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |
 | [Ex2](https://github.com/PBYetml/POBJ_SLO2_23_24/tree/main/Exercices/Ex6_RevisionClass2_CSharp) | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK | NOK |

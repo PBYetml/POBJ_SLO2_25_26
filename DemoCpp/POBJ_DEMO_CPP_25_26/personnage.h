@@ -13,25 +13,31 @@
 #ifndef PERSONNAGE_H
 #define PERSONNAGE_H
 
+#include "Armes.h"
+#include "user.h"
+
+
 class Personnage
 {
-	//-- visibilité attribut 
+	//-- visibilité attributs
 	public:
 		short taille;
-
-	private : 
-		
 
 
 	protected:
 
 	private:
+		bool suppressionArme; 
 		int vie;
+		//-- attribut -> association -> pointeur (dynamique) 
+		arme* monArme;
+
+		//-- attribut -> composition -> objet (statique) 
+		arme monArmeParDefaut;
 
 		//-- visibilité méthode
 	public:
 		//
-		
 
 		//-- constructeur 
 		Personnage();	
@@ -41,12 +47,24 @@ class Personnage
 		//void Personnage(); 
 
 		//-- desctructeur
-		~Personnage(); 
+		~Personnage();
 
 		//-- méthode --// 
 		void AfficherVie(); 
+		int Attaquer();
+		void ChoisirArme(); 
+		void SubirAttaque(Personnage attaquant);
+		bool SupprimerArme(); 
+
+
+		friend void user::FctAmitier(Personnage Slo);
+
+		//void DemoFctAmitier(user demo); 
+
 		
-		int Attaquer(int arme);
+
+
+
 
 	protected:
 
