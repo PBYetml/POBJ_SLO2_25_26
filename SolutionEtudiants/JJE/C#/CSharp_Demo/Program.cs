@@ -98,9 +98,69 @@
             varE = Console.Read();
             Console.Write(varE.ToString("D"));
 
-            //-- Conversion chaînede caractère en nombre entier
+            //-- Conversion chaîne de caractère en nombre entier
 
+            ConsoleKeyInfo touchePressee;
 
+            touchePressee = Console.ReadKey();
+
+            //-- test --//
+            //-> if
+            if(touchePressee.Key == ConsoleKey.F1)
+            {
+
+            }
+            else if(touchePressee.Key == ConsoleKey.Escape)
+            {
+
+            } 
+
+            else
+            {
+
+            }
+
+            //-> switch
+            switch(touchePressee.Key)
+            {
+                case ConsoleKey.F1:
+
+                    break;
+
+                case ConsoleKey.F2:
+
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            //-- iteration --//
+            //-> tant que
+            while(touchePressee.Key != ConsoleKey.Escape)
+            {
+
+            }
+
+            //-> faire tant que
+            do
+            {
+
+            } while (touchePressee.Key != ConsoleKey.Escape);
+
+            //-> comptage
+            for(int i = 0; i < 10; i++)
+            {
+
+            }
+
+            //-> comptage simplifié
+            // /!\ attention paramètre d'entrée qui doit être défini à l'intérieur
+            foreach(int element in tbEntier)
+            {
+                varE = element;
+            }
 
 
 
