@@ -4,17 +4,13 @@
 #include "Figure.h"
 
 
-class Rectangle : public Figure {
-
- public:
-
-    void EffectuerSaisie(int NoPoint);
-
-    void Dessiner();
-
+class Rectangle : public Figure
+{
+public:
     Rectangle();
-
     ~Rectangle();
+    void EffectuerSaisie(int NoPoint) override;
+    void Dessiner() override;
 };
 
 #endif // Rectangle_h

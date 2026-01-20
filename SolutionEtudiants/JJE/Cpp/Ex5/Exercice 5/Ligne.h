@@ -4,17 +4,13 @@
 #include "Figure.h"
 
 
-class Ligne : public Figure {
-
- public:
-
-    void EffectuerSaisie(int NoPoint);
-
-    void Dessiner();
-
+class Ligne : public Figure
+{
+public:
     Ligne();
-
     ~Ligne();
+    void EffectuerSaisie(int NoPoint) override;
+    void Dessiner() override;
 };
 
 #endif // Ligne_h
