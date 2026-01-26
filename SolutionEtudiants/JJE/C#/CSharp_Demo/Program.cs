@@ -95,7 +95,7 @@
 
             Console.WriteLine(chaine);
 
-            varE = Console.Read();
+            varE = int.Parse(Console.ReadLine());
             Console.Write(varE.ToString("D"));
 
             //-- Conversion chaîne de caractère en nombre entier
