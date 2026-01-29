@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\couteau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:couteau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\arme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:arme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\user.cs",
+              "RelativeDocumentMoniker": "user.cs",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\user.cs",
+              "RelativeToolTip": "user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T09:02:44.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "arme.cs",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\arme.cs",
+              "RelativeDocumentMoniker": "arme.cs",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\arme.cs",
+              "RelativeToolTip": "arme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:42:04.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "couteau.cs",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\couteau.cs",
+              "RelativeDocumentMoniker": "couteau.cs",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\couteau.cs",
+              "RelativeToolTip": "couteau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:41:59.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "personnage.cs",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\personnage.cs",
+              "RelativeDocumentMoniker": "personnage.cs",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\personnage.cs",
+              "RelativeToolTip": "personnage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:41:52.228Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T13:24:59.772Z",
               "EditorCaption": ""

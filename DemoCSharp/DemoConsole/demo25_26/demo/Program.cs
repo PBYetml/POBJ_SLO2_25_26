@@ -67,11 +67,23 @@
             uint[] tbEntier = new uint[10];
 
 
+            //-- variable type enum -> lié à la class arme 
+            e_typeArme arme = e_typeArme.aFeu;
+            e_typeArme arme2; 
+
             //-- objets utiles --//
             //-- chaine de caractère -> String --// 
             String chaine = "Hello SLO"; 
 
-            String[] weekDays = [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ];
+            String[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+            //-- lié à la class personnage
+            personnage SLO2 = new personnage();
+            personnage SLO1 = new personnage(50);
+
+            SLO2.ChoisirArme(ref arme);
+            SLO2.choisirArme2(out arme2); 
+
 
             //-- touches clavier
             //--> ConsoleKey -> énumération 
@@ -102,9 +114,13 @@
 
             Console.WriteLine(chaine);
 
-            varE = int.Parse(Console.ReadLine()); 
-            Console.Write(varE);
+            //=> sachant l'utilisateur insère une chaine de caractère sous forme de nombre entier 
+            varE = int.Parse(Console.ReadLine());
 
+            //=> sachant l'utilisateur insère une chaine de caractère sous forme de nombre floattant
+            varF = float.Parse(Console.ReadLine()); 
+
+            Console.Write(varE);
 
 
             //-- conversion chaîne de caractère en nombre entier --// 

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\demographique\\demoform26\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Conception]",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\Form1.cs [Conception]",
+              "RelativeToolTip": "Form1.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:24:10.632Z",
+              "EditorCaption": " [Conception]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
