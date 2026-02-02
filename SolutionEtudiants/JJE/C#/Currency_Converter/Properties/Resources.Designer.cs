@@ -63,6 +63,16 @@ namespace Ex1_Currency_Converter.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Australia {
+            get {
+                object obj = ResourceManager.GetObject("Australia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bri_ish {
             get {
                 object obj = ResourceManager.GetObject("Bri_ish", resourceCulture);
@@ -96,6 +106,16 @@ namespace Ex1_Currency_Converter.Properties {
         internal static System.Drawing.Bitmap USA_F_Yeah {
             get {
                 object obj = ResourceManager.GetObject("USA_F_Yeah", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Xong_Xina {
+            get {
+                object obj = ResourceManager.GetObject("Xong_Xina", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -121,13 +121,19 @@
   <data name="Bri_ish" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\MesImages\Bri_ish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="USA_F_Yeah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\MesImages\USA_F_Yeah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Souisse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\MesImages\Souisse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Toyota_Banzai" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\MesImages\Toyota_Banzai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="USA_F_Yeah" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\MesImages\USA_F_Yeah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Xong_Xina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\MesImages\Xong_Xina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\MesImages\Australia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

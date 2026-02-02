@@ -34,26 +34,27 @@
             this.rbnSFR = new System.Windows.Forms.RadioButton();
             this.rbnUSD = new System.Windows.Forms.RadioButton();
             this.rbnGBP = new System.Windows.Forms.RadioButton();
-            this.rbnYEN = new System.Windows.Forms.RadioButton();
+            this.rbnYENJAP = new System.Windows.Forms.RadioButton();
             this.btnConvertir = new System.Windows.Forms.Button();
             this.txtMontant = new System.Windows.Forms.TextBox();
             this.txtResultat = new System.Windows.Forms.TextBox();
             this.labelResultEuro = new System.Windows.Forms.Label();
             this.labelMontant = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.rbnYUENCHIN = new System.Windows.Forms.RadioButton();
+            this.rbnAUD = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.PicDevise)).BeginInit();
             this.SuspendLayout();
             // 
             // PicDevise
             // 
-            this.PicDevise.Image = global::Ex1_Currency_Converter.Properties.Resources.USA_F_Yeah;
-            this.PicDevise.Location = new System.Drawing.Point(426, 12);
+            this.PicDevise.Image = global::Ex1_Currency_Converter.Properties.Resources.Souisse;
+            this.PicDevise.Location = new System.Drawing.Point(389, 26);
             this.PicDevise.Name = "PicDevise";
-            this.PicDevise.Size = new System.Drawing.Size(254, 202);
+            this.PicDevise.Size = new System.Drawing.Size(309, 209);
             this.PicDevise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PicDevise.TabIndex = 0;
             this.PicDevise.TabStop = false;
-            //this.PicDevise.Click += new System.EventHandler(this.PicDevise_Click);
             // 
             // rbnSFR
             // 
@@ -65,6 +66,7 @@
             this.rbnSFR.TabStop = true;
             this.rbnSFR.Text = "Franc Suisse";
             this.rbnSFR.UseVisualStyleBackColor = true;
+            this.rbnSFR.CheckedChanged += new System.EventHandler(this.rbnSFR_CheckedChanged_1);
             // 
             // rbnUSD
             // 
@@ -76,6 +78,7 @@
             this.rbnUSD.TabStop = true;
             this.rbnUSD.Text = "US dollars";
             this.rbnUSD.UseVisualStyleBackColor = true;
+            this.rbnUSD.CheckedChanged += new System.EventHandler(this.rbnUSD_CheckedChanged_1);
             // 
             // rbnGBP
             // 
@@ -87,47 +90,50 @@
             this.rbnGBP.TabStop = true;
             this.rbnGBP.Text = "Livres Sterling";
             this.rbnGBP.UseVisualStyleBackColor = true;
+            this.rbnGBP.CheckedChanged += new System.EventHandler(this.rbnGBP_CheckedChanged_1);
             // 
-            // rbnYEN
+            // rbnYENJAP
             // 
-            this.rbnYEN.AutoSize = true;
-            this.rbnYEN.Location = new System.Drawing.Point(63, 133);
-            this.rbnYEN.Name = "rbnYEN";
-            this.rbnYEN.Size = new System.Drawing.Size(92, 19);
-            this.rbnYEN.TabIndex = 4;
-            this.rbnYEN.TabStop = true;
-            this.rbnYEN.Text = "Yen Japonais";
-            this.rbnYEN.UseVisualStyleBackColor = true;
+            this.rbnYENJAP.AutoSize = true;
+            this.rbnYENJAP.Location = new System.Drawing.Point(63, 133);
+            this.rbnYENJAP.Name = "rbnYENJAP";
+            this.rbnYENJAP.Size = new System.Drawing.Size(92, 19);
+            this.rbnYENJAP.TabIndex = 4;
+            this.rbnYENJAP.TabStop = true;
+            this.rbnYENJAP.Text = "Yen Japonais";
+            this.rbnYENJAP.UseVisualStyleBackColor = true;
+            this.rbnYENJAP.CheckedChanged += new System.EventHandler(this.rbnYEN_CheckedChanged_1);
             // 
             // btnConvertir
             // 
-            this.btnConvertir.Location = new System.Drawing.Point(346, 324);
+            this.btnConvertir.BackColor = System.Drawing.SystemColors.Control;
+            this.btnConvertir.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConvertir.Location = new System.Drawing.Point(304, 326);
             this.btnConvertir.Name = "btnConvertir";
-            this.btnConvertir.Size = new System.Drawing.Size(75, 23);
+            this.btnConvertir.Size = new System.Drawing.Size(152, 76);
             this.btnConvertir.TabIndex = 5;
             this.btnConvertir.Text = "Convertir";
-            this.btnConvertir.UseVisualStyleBackColor = true;
+            this.btnConvertir.UseVisualStyleBackColor = false;
+            this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
             // txtMontant
             // 
-            this.txtMontant.Location = new System.Drawing.Point(97, 345);
+            this.txtMontant.Location = new System.Drawing.Point(97, 379);
             this.txtMontant.Name = "txtMontant";
             this.txtMontant.Size = new System.Drawing.Size(100, 23);
             this.txtMontant.TabIndex = 6;
-            this.txtMontant.TextChanged += new System.EventHandler(this.txtMontant_TextChanged);
             // 
             // txtResultat
             // 
-            this.txtResultat.Location = new System.Drawing.Point(580, 342);
+            this.txtResultat.Location = new System.Drawing.Point(572, 379);
             this.txtResultat.Name = "txtResultat";
             this.txtResultat.Size = new System.Drawing.Size(100, 23);
             this.txtResultat.TabIndex = 7;
-            this.txtResultat.TextChanged += new System.EventHandler(this.txtResultat_TextChanged);
             // 
             // labelResultEuro
             // 
             this.labelResultEuro.AutoSize = true;
-            this.labelResultEuro.Location = new System.Drawing.Point(580, 324);
+            this.labelResultEuro.Location = new System.Drawing.Point(580, 357);
             this.labelResultEuro.Name = "labelResultEuro";
             this.labelResultEuro.Size = new System.Drawing.Size(92, 15);
             this.labelResultEuro.TabIndex = 8;
@@ -136,7 +142,7 @@
             // labelMontant
             // 
             this.labelMontant.AutoSize = true;
-            this.labelMontant.Location = new System.Drawing.Point(97, 324);
+            this.labelMontant.Location = new System.Drawing.Point(97, 357);
             this.labelMontant.Name = "labelMontant";
             this.labelMontant.Size = new System.Drawing.Size(53, 15);
             this.labelMontant.TabIndex = 9;
@@ -151,18 +157,46 @@
             this.imageList1.Images.SetKeyName(1, "USA_F_Yeah.png");
             this.imageList1.Images.SetKeyName(2, "Bri_ish.png");
             this.imageList1.Images.SetKeyName(3, "Toyota_Banzai.png");
+            this.imageList1.Images.SetKeyName(4, "Xong_Xina.png");
+            this.imageList1.Images.SetKeyName(5, "Australia.png");
+            // 
+            // rbnYUENCHIN
+            // 
+            this.rbnYUENCHIN.AutoSize = true;
+            this.rbnYUENCHIN.Location = new System.Drawing.Point(63, 158);
+            this.rbnYUENCHIN.Name = "rbnYUENCHIN";
+            this.rbnYUENCHIN.Size = new System.Drawing.Size(95, 19);
+            this.rbnYUENCHIN.TabIndex = 10;
+            this.rbnYUENCHIN.TabStop = true;
+            this.rbnYUENCHIN.Text = "Yuen Chinois";
+            this.rbnYUENCHIN.UseVisualStyleBackColor = true;
+            this.rbnYUENCHIN.CheckedChanged += new System.EventHandler(this.rbnYENCHIN_CheckedChanged);
+            // 
+            // rbnAUD
+            // 
+            this.rbnAUD.AutoSize = true;
+            this.rbnAUD.Location = new System.Drawing.Point(63, 183);
+            this.rbnAUD.Name = "rbnAUD";
+            this.rbnAUD.Size = new System.Drawing.Size(85, 19);
+            this.rbnAUD.TabIndex = 11;
+            this.rbnAUD.TabStop = true;
+            this.rbnAUD.Text = "AUS dollars";
+            this.rbnAUD.UseVisualStyleBackColor = true;
+            this.rbnAUD.CheckedChanged += new System.EventHandler(this.rbnAUD_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rbnAUD);
+            this.Controls.Add(this.rbnYUENCHIN);
             this.Controls.Add(this.labelMontant);
             this.Controls.Add(this.labelResultEuro);
             this.Controls.Add(this.txtResultat);
             this.Controls.Add(this.txtMontant);
             this.Controls.Add(this.btnConvertir);
-            this.Controls.Add(this.rbnYEN);
+            this.Controls.Add(this.rbnYENJAP);
             this.Controls.Add(this.rbnGBP);
             this.Controls.Add(this.rbnUSD);
             this.Controls.Add(this.rbnSFR);
@@ -181,12 +215,14 @@
         private RadioButton rbnSFR;
         private RadioButton rbnUSD;
         private RadioButton rbnGBP;
-        private RadioButton rbnYEN;
+        private RadioButton rbnYENJAP;
         private Button btnConvertir;
         private TextBox txtMontant;
         private TextBox txtResultat;
         private Label labelResultEuro;
         private Label labelMontant;
         private ImageList imageList1;
+        private RadioButton rbnYUENCHIN;
+        private RadioButton rbnAUD;
     }
 }
