@@ -66,6 +66,29 @@
             //-- tableau entier 10 case
             uint[] tbEntier = new uint[10];
 
+            //-- tableau multidimension --// 
+            //-- tableau entier 2 dimension [ligne, colonne]
+            int[,] tbEntier_2Dim = new int[2, 3];
+
+            //-- tableau entier 3 dimension[x, y, z]
+            int[,,] tbEntier_3Dim = new int[,,] {
+                                                    // -> Z 
+                                                    {   
+                                                        // -> Y 
+                                                        { 0, 1, 2},      // -> X  
+                                                        {0, 1, 2 }
+                                                    },
+                                                    { 
+                                                        { 0, 1, 2}, 
+                                                        {0, 1, 2 } 
+                                                    },
+                                                    { 
+                                                        { 0, 1, 2}, 
+                                                        {0, 1, 2 } },
+                                                }; 
+
+            tbEntier_2Dim[1, 2] = 0; 
+
 
             //-- variable type enum -> lié à la class arme 
             e_typeArme arme = e_typeArme.aFeu;
@@ -81,8 +104,8 @@
             personnage SLO2 = new personnage();
             personnage SLO1 = new personnage(50);
 
-            SLO2.ChoisirArme(ref arme);
-            SLO2.choisirArme2(out arme2); 
+            SLO2.ChoisirArme(ref arme);             // /!\ attention parmaètre doit être initialiser avant 
+            SLO2.choisirArme2(out arme2);           // parmaètre n'a pas besoin d'être initialiser 
 
 
             //-- touches clavier

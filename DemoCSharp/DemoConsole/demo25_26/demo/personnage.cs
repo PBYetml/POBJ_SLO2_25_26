@@ -46,6 +46,8 @@ namespace demo
             Console.WriteLine("Entrer un nom de personnage");
             mNomPersonnage = Console.ReadLine(); 
         }
+
+        ~personnage() { }
         
         
         
@@ -101,6 +103,7 @@ namespace demo
 
         public void choisirArme2(out e_typeArme typeArme) // passage par reférence 
                                                           // ref -> valeur initialisée à l'appel de la fonction 
+                                                          // out -> 
         {
             typeArme = e_typeArme.aJet;
         }

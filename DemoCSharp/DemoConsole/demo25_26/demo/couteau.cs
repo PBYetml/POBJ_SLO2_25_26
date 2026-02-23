@@ -14,7 +14,7 @@ namespace demo
         private String mModele;
 
         // constructeur 
-        couteau() { }
+        public couteau() { }
         public couteau(String Modele, int degats)
         { }
 
