@@ -62,6 +62,21 @@
             //-- tableau entier 10 case
             uint[] tbEntier = new uint[10];
 
+            //-- tableau multidimension --//
+            //-- tableau entier 10 cases
+            uint[] tbEntier = new uint[10];
+
+            //-- tableau 3 dimension[x, y, z]
+            int[,,] tbEntier_3Dim = new int[,,]
+            {
+                {0, 1, 2 },{0, 1, 2 }
+            },
+            {
+                { 0, 1, 2 },{ 0, 1, 2 }
+            },
+            {
+                { 0, 1, 2 },{ 0, 1, 2 }
+            }
 
             //-- objets utiles
             //-- chaîne de caractère -> String 
