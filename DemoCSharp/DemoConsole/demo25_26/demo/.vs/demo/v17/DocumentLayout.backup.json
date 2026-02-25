@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\arme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:couteau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|solutionrelative:personnage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FBB2D3E-67CE-494A-B4C5-B77DFAEF84CC}|demo.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\democonsole\\demo25_26\\demo\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "arme.cs",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\arme.cs",
               "RelativeToolTip": "arme.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwBEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T07:42:04.798Z",
               "EditorCaption": ""
@@ -72,26 +72,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "personnage.cs",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\personnage.cs",
               "RelativeDocumentMoniker": "personnage.cs",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\personnage.cs",
               "RelativeToolTip": "personnage.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T07:41:52.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFQAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T13:24:59.772Z",
               "EditorCaption": ""

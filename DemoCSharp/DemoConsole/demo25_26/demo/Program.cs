@@ -1,4 +1,6 @@
-﻿namespace demo
+﻿using System.Collections;
+
+namespace demo
 {
     internal class Program
     {
@@ -11,7 +13,7 @@
             //-- variable 
             //-- type primaire - Entier
             //-- booléen - taille : 1 octet
-            bool varT = true;                                    // uniquement keyword "true" ou "false"
+            bool varT = true, varT2 = false;                                    // uniquement keyword "true" ou "false"
 
             //-- entier
             //-- taille : 1 octet
@@ -87,18 +89,21 @@
                                                         {0, 1, 2 } },
                                                 }; 
 
-            tbEntier_2Dim[1, 2] = 0; 
-
+            tbEntier_2Dim[1, 2] = 0;
 
             //-- variable type enum -> lié à la class arme 
             e_typeArme arme = e_typeArme.aFeu;
-            e_typeArme arme2; 
+            e_typeArme arme2;
 
             //-- objets utiles --//
             //-- chaine de caractère -> String --// 
-            String chaine = "Hello SLO"; 
-
+            String chaine = "Hello SLO";
+            
             String[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+            //-- objet standart -> non défini !!! 
+            object SLOx;    // /!\ n'a pas d'appartenance à une class prédéfinie 
+                            // pas besoin de l'instancier
 
             //-- lié à la class personnage
             personnage SLO2 = new personnage();
@@ -106,6 +111,48 @@
 
             SLO2.ChoisirArme(ref arme);             // /!\ attention parmaètre doit être initialiser avant 
             SLO2.choisirArme2(out arme2);           // parmaètre n'a pas besoin d'être initialiser 
+
+            //-- collection -> tableau d'objet --// 
+            //-- list 
+            List<personnage> tbPersonnage = new List<personnage>();
+
+            //-- ajout d'éléments --// 
+            tbPersonnage.Add(SLO1); 
+            tbPersonnage.Add(SLO2);
+            
+            //-- modification de l'objet proprement parler
+            tbPersonnage[1].choisirArme2(out arme2);
+            tbPersonnage[0].Attaquer(tbPersonnage[1]); 
+
+            //-- recupérer un objet de liste d'objet personnage --// 
+            SLO1 = tbPersonnage[1];
+
+            //-- array --// 
+            ArrayList tbCollection = new ArrayList();
+
+            tbCollection.Add(varT);         // boolean
+            tbCollection.Add(varF);         // floattant
+            tbCollection.Add(SLO1);         // objet type personnage 
+
+            //-- récupération d'un élément -> ici connait le type rechercher
+            varT2 = (bool)tbCollection[0]; 
+
+            //-- écriture directement dans la liste -> on connait le type et la casse recherchée 
+            tbCollection[1] = (float)3.14;
+
+            //-- permet de pointer sur l'index de l'objet rechercher 
+            varE = tbCollection.IndexOf(SLO1);
+
+            //-- si doit travailler sur un objet, doit passer par un objet intermédaire --// 
+            SLOx = tbCollection[2];  
+
+            //tbCollection.Remove(varT);
+            tbCollection.Insert(0, tbEntier_3Dim);
+
+
+            //varT2 =  bool.Parse(0, tbCollection); 
+
+
 
 
             //-- touches clavier
