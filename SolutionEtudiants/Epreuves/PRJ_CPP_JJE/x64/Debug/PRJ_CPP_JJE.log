@@ -1,0 +1,42 @@
+﻿  ConversionBCD.cpp
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,18): error C2061: erreur de syntaxe : identificateur 'e_codageBinaire'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(44,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(51,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(49,16): error C7550: 'ConversionBCD::{ctor}' : le nom qualifié dans ce contexte nomme un constructeur et non un type
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(49,30): error C2065: 'e_codageBinaire' : identificateur non déclaré
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(49,46): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'choixCodage'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(50,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(50,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(83,1): error C2084: la fonction 'ConversionBCD::ConversionBCD(void)' a déjà un corps
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(34): message : voir la définition précédente de '{ctor}'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(100,13): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(117,2): error C2065: 'm_nbrDigitMaxValEntier' : identificateur non déclaré
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(135,13): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(146,17): error C2065: 'm_ptTbDigitEntier' : identificateur non déclaré
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.cpp(180,18): error C2065: 'm_ptTbDigitEntier' : identificateur non déclaré
+  ConversionNum.cpp
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,18): error C2061: erreur de syntaxe : identificateur 'e_codageBinaire'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(44,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(51,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+  main.cpp
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,18): error C2061: erreur de syntaxe : identificateur 'e_codageBinaire'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(36,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(44,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(51,17): error C2535: 'ConversionBCD::ConversionBCD(void)' : fonction membre déjà définie ou déclarée
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\ConversionBCD.h(35): message : voir la déclaration de 'ConversionBCD::ConversionBCD'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\main.cpp(31,1): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\main.cpp(70,127): error C2661: 'ConversionBCD::ConversionBCD' : aucune fonction surchargée ne nécessite 2 arguments
+  user.cpp
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\user.cpp(196,45): warning C4267: '=' : conversion de 'size_t' en 'char', perte possible de données
+C:\Users\jerjeanelie\Github\POBJ_SLO2_24_25\SolutionEtudiants\Epreuves\PRJ_CPP_JJE\user.cpp(177,7): warning C4101: 'iterationDigit' : variable locale non référencée
+  Génération de code en cours...
