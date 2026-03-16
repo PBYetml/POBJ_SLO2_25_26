@@ -107,7 +107,38 @@ public class Demonstration_Eclipse
 		System.out.printf("\n Format binaire ob%s", varInt); //-> Binaire
 		
 		//-- Récupération information du clavier --//
+		//-> Chaîne de caractères
+		System.out.print("\n Insérer une valeur entière : ");
 		maChaine = monClavier.next(); //-> Chaîne de caractère
+		
+		//-> entier
+		System.out.print("Insérer une valeur entière : ");
+		varInt = monClavier.nextInt();
+		
+		//-> float
+		System.out.print("Insérer une valeur réelle : ");
+		
+		try
+		{
+			varD = monClavier.nextDouble();
+		}
+		catch(Exception data)
+		{
+			System.out.println(data.getLocalizedMessage());
+			System.out.println(data.getMessage());
+		}
+		finally
+		{
+			monClavier.useLocale(Locale.ENGLISH);
+			varD = monClavier.nextDouble();
+		}
+		
+		if(varD == 3.14)
+		{
+			System.out.println("Exception levee !!!");
+		}
+		
+		// TODO Auto-generated method stub
 		
 	}
 
