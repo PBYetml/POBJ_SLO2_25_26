@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "QuMqmeLtB90=",
+  "success": true,
+  "projectFilePath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\demoForm26.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phibovey\\.nuget\\packages\\glabs.logging\\1.0.1\\glabs.logging.1.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.2\\microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.1\\microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.1\\microsoft.extensions.configuration.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.logging.configuration\\8.0.1\\microsoft.extensions.logging.configuration.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.logging.console\\8.0.1\\microsoft.extensions.logging.console.8.0.1.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.native.system.io.ports\\8.0.0\\runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\serialportlib\\1.3.0\\serialportlib.1.3.0.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\serialportlib2\\1.0.10\\serialportlib2.1.0.10.nupkg.sha512",
+    "C:\\Users\\phibovey\\.nuget\\packages\\system.io.ports\\8.0.0\\system.io.ports.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Le package 'SerialPortLib2 1.0.10' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net8.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "projectPath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\demoForm26.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\demoForm26.csproj",
+      "libraryId": "SerialPortLib2",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

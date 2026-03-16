@@ -1,0 +1,16 @@
+﻿  demoSLO.cpp
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(28,6): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(46,9): warning C4101: 'valD' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(42,9): warning C4101: 'valI2' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(55,6): warning C4101: 'tbDemo' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(38,7): warning C4101: 'valL' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(36,8): warning C4101: 'valS' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(34,7): warning C4101: 'valB' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(39,12): warning C4101: 'valLL' : variable locale non référencée
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\demoSLO.cpp(37,12): warning C4101: 'valX' : variable locale non référencée
+  personnage.cpp
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\personnage.cpp(21,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  user.cpp
+C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\user.cpp(163,22): warning C4244: 'initialisation' : conversion de 'short' en 'char', perte possible de données
+  Génération de code en cours...
+  POBJ_DEMO_CPP_23_24.vcxproj -> C:\PBY\GITHUB\POBJ_DEMO_SLO25_26\DemoCpp\POBJ_DEMO_CPP_25_26\Debug\POBJ_DEMO_CPP_24_25.exe

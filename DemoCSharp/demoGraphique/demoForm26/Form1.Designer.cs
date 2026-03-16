@@ -52,7 +52,7 @@
             // 
             // btn_test
             // 
-            btn_test.Location = new Point(275, 40);
+            btn_test.Location = new Point(347, 39);
             btn_test.Name = "btn_test";
             btn_test.Size = new Size(75, 23);
             btn_test.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(268, 256);
+            textBox1.Location = new Point(208, 40);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 7;

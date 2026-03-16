@@ -54,8 +54,7 @@
               "RelativeToolTip": "arme.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T07:42:04.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:42:04.798Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "couteau.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T07:41:59.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:41:59.916Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "personnage.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T07:41:52.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-26T07:41:52.228Z"
             },
             {
               "$type": "Document",
@@ -89,9 +86,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIYAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\DemoConsole\\demo25_26\\demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T13:24:59.772Z",
               "EditorCaption": ""

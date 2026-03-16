@@ -22,13 +22,11 @@ namespace demoForm26
             {
                serialPort1.Open();
                serialPort1.Write("hello"); 
-               
-                
-
             }
             catch (IOException ex) 
             {
                 Console.WriteLine(ex.ToString());
+                serialPort1.Close();
             }
         }
 

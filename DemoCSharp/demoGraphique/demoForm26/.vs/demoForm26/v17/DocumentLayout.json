@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|c:\\pby\\github\\pobj_demo_slo25_26\\democsharp\\demographique\\demoform26\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A4D921FD-1A6F-453D-B83F-92F15CFBF4BF}|demoForm26.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -57,8 +57,7 @@
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\demoForm26.csproj",
               "RelativeToolTip": "demoForm26.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-10T15:43:07.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T15:43:07.461Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T07:47:50.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-28T07:47:50.607Z"
             },
             {
               "$type": "Document",
@@ -93,7 +91,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\PBY\\GITHUB\\POBJ_DEMO_SLO25_26\\DemoCSharp\\demoGraphique\\demoForm26\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-28T07:52:52.169Z",
               "EditorCaption": ""

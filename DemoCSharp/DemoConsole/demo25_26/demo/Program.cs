@@ -13,7 +13,7 @@ namespace demo
             //-- variable 
             //-- type primaire - Entier
             //-- booléen - taille : 1 octet
-            bool varT = true, varT2 = false;                                    // uniquement keyword "true" ou "false"
+            bool varT = true, varT2 = false;                    // uniquement keyword "true" ou "false"
 
             //-- entier
             //-- taille : 1 octet
