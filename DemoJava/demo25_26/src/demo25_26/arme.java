@@ -18,10 +18,14 @@ public class arme
 		mTest2 = 'A'; 
 	}
 	
+	//-- constructeur surcharge --// 
 	public arme(String nomArme, int Degat) 
 	{
 
 	}
+	
+	//-- destructeur 
+	public void finalize() {}
 
 	public int Frapper() 
 	{
